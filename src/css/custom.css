@@ -1,0 +1,62 @@
+.slide > div {
+	padding: 45px 30px 0;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+}
+
+.slide:after {
+	position: absolute;
+	top: 0;
+	right: 3px;
+	padding: 0;
+	width: 40px;
+	height: 40px;
+	background: red; 
+	color: #fff;
+	counter-increment: slide;
+	content: counter(slide);
+	text-align: center;
+	font-size: 20px;
+	margin-top: 6px;
+	line-height: 40px;
+	border-radius: 20px;
+}
+
+.slide h2 {
+	margin: 0 auto 30px;
+	text-decoration: underline;
+	text-align: center;
+}
+
+.links-wrap h4 {
+	line-height: 1em;
+}
+
+.links-wrap ul {
+	line-height: 1.2em;
+    font-size: 0.7em;
+}
+.key-properties {
+	margin-bottom: 20px;
+}
+
+.key-properties ul {
+	margin: 0;
+	list-style-type: none;
+	line-height: 1em;
+	text-align: center;
+}
+
+.slide .key-properties ul>li:before {
+	content: '';
+}
+
+.key-properties h4 {
+	line-height: 1em;
+	padding-bottom: 10px;
+}
+
+.key-properties ul strong {
+	text-shadow: 1px 1px #999;
+}
