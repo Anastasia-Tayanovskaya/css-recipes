@@ -1,0 +1,62 @@
+.table-container {
+    overflow: hidden;
+    width: 756px;
+    border: 1px solid #963;
+    clear: both;
+    height: 285px;
+	font-size: 12px;
+}
+
+.table-container table {
+    width: 756px;	
+	border-collapse: separate;
+}
+
+.fixed-header tr {
+    display: block;
+    position: relative;
+}
+.fixed-header th {
+    width: 200px;
+}
+.fixed-header th + th {
+    width: 240px;
+}
+.fixed-header th + th + th {
+    width: 316px;
+}
+
+.fixed-header th {
+    background: none repeat scroll 0 0 #c96;
+    border-left: 1px solid #eb8;
+    border-right: 1px solid #b74;
+    border-top: 1px solid #eb8;
+    font-weight: normal;
+    padding: 4px 3px;
+    text-align: left;
+}
+
+.scroll-content {
+    display: block;
+    height: 262px;
+    overflow: auto;
+    width: 100%;
+}
+
+.scroll-content td, .scroll-content tr.normal-row td {
+    background: none repeat scroll 0 0 #fff;
+    border-color: #ddd #ccc -moz-use-text-color -moz-use-text-color;
+    border-style: solid solid none none;
+    border-width: 1px 1px medium medium;
+    padding: 2px 3px 3px 4px;
+}
+.scroll-content td {
+    width: 200px;
+}
+.scroll-content td + td {
+    width: 240px;
+}
+
+.scroll-content td + td + td {
+    width: 300px;
+}

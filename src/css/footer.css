@@ -1,0 +1,28 @@
+html {
+	height: 100%;
+}
+
+body {
+	min-height: 100%;
+	height: auto;
+	position: relative;
+}
+
+.container {
+	padding-bottom: 45px;
+}
+
+.container p {
+	padding-bottom: 15px;
+}
+
+footer {
+	padding: 15px;
+	background: #333;
+	color: #bfbfbf;
+	position: absolute;
+	bottom: 0;
+	height: 45px;
+	box-sizing: border-box;
+	width: 100%;
+}
