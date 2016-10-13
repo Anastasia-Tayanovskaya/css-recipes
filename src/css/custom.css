@@ -67,3 +67,16 @@
 .key-properties ul strong {
 	text-shadow: 1px 1px #999;
 }
+
+.align-left {
+	text-align: left !important;
+}
+
+.list-pointer li::before {
+	padding-right: 0.5em !important;
+    content: "•" !important;
+}
+
+.table-example {
+	width: 30%;
+}
