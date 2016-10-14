@@ -1,0 +1,13 @@
+
+.content {
+  box-sizing: border-box;
+  min-height: calc(100vh - 80px);
+}
+.footer {
+	height: 80px;
+	padding: 15px;
+	background: #333;
+	color: #bfbfbf;
+	box-sizing: border-box;
+}
+
